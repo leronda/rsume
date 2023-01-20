@@ -1,0 +1,235 @@
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: rgb(255, 242, 242, 0.35);
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .resume-main {
+        display: flex;
+        width: 900px;
+        height: 100%;
+        margin: 0 auto;
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+      }
+      .navbar-fixed {
+        width: 900px;
+        height: 50px;
+        overflow: hidden;
+        text-align: center;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        background-color: rgb(229, 224, 255, 0.548);
+        position: fixed;
+        z-index: 1049;
+      }
+      ul {
+        list-style-type: none;
+      }
+      .menu-container li {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 20px;
+        font-size: 17px;
+      }
+      .menu-container li a {
+        text-decoration: none;
+        color: rebeccapurple;
+        font-family: "Open Sans", sans-serif;
+      }
+      .left-box {
+        width: 35%;
+        height: 100%;
+        padding: 30px;
+      }
+      .right-box {
+        width: 65%;
+        height: 100%;
+        background-color: rgb(255, 242, 242);
+        padding: 75px 24px 0 24px;
+      }
+      .profile img {
+        width: 100%;
+        border-radius: 20%;
+        margin-top: 52px;
+        margin-bottom: 38px;
+        border: 15px solid white;
+        box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+      }
+      .right-box .name {
+        padding: 0px 5px;
+      }
+      .right-box .name .firstname {
+        font-family: "Open Sans", sans-serif;
+        font-size: 70px;
+        color: #4d4d4f;
+      }
+      .right-box .name .lastname {
+        font-size: 64px;
+        font-weight: 400;
+        letter-spacing: 8px;
+        margin-top: -13px;
+        font-family: "Open Sans", sans-serif;
+        color: #4d4d4f;
+      }
+      .position {
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 5px;
+        margin-top: 8px;
+        font-size: 19px;
+      }
+      .resume-main .right-box > div {
+        margin-bottom: 35px;
+      }
+      .group {
+        font-family: "Public Sans", sans-serif;
+        font-size: 22px;
+        text-transform: uppercase;
+        padding: 9px;
+        background-color: rgb(114, 134, 211);
+        color: white;
+        margin: 20px 0;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .right-box .right-heading .p1 {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 18px;
+      }
+      .right-box .experience-grp li {
+        position: relative;
+        border-left: 2px solid rgb(142, 167, 233, 0.5);
+        padding-left: 18px;
+        padding-bottom: 20px;
+      }
+      .right-box .experience-grp li .title {
+        font-weight: 900;
+        font-size: 18px;
+      }
+      .right-box .experience-grp li .sub_title {
+        margin: 3px 0;
+      }
+      .right-box .experience-grp li::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: -9px;
+        width: 12px;
+        height: 11px;
+        border: 2px solid rgb(114, 134, 211);
+        background-color: #fff;
+        border-radius: 50%;
+      }
+      .right-box .experience-grp li .item-grp {
+        position: relative;
+      }
+      .right-box .experience-grp li .item-grp .timeline {
+        position: absolute;
+        top: 7px;
+        right: 0;
+        font-size: 13px;
+        color: rgb(102 100 219);
+        font-weight: 900;
+      }
+      .right-box .experience-grp li:last-child {
+        padding-bottom: 0;
+      }
+      .skills .right-skills {
+        width: 40%;
+        float: left;
+        margin-top: 8px;
+      }
+      .skills .left-skills {
+        width: 30%;
+        float: left;
+      }
+      .clearfix {
+        clear: both;
+      }
+      .p25 {
+        color: black;
+        margin: 7px 30px;
+        font-size: 19px;
+        text-align: center;
+      }
+      .fa {
+        display: inline-block;
+        margin-left: 10px;
+      }
+      .circle {
+        color: rgb(114 134 211);
+        font-size: 20px;
+      }
+      .circle1 {
+        color: rgb(40, 0, 249, 0.12);
+        font-size: 20px;
+      }
+      .info .contact-list {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 16px;
+        font-family: "Lato", sans-serif;
+        color: #444440;
+        font-size: 16px;
+      }
+      .left-box .info i {
+        font-size: 17px;
+      }
+      .left-box .info .contact-text a {
+        text-decoration: none;
+        color: rgb(34 34 29);
+      }
+      .left-box .info .contact-text a:hover {
+        color: rgb(76 102 199);
+      }
+      .info,
+      .education-container {
+        margin-bottom: 30px;
+        font-family: "Lato", sans-serif;
+      }
+      .education-container .course {
+        margin-bottom: 16px;
+        color: #414042;
+      }
+      .education-container .education-title {
+        font-size: 19px;
+        font-weight: 800;
+        margin-bottom: 2px;
+      }
+      .education-container .college-name {
+        margin-bottom: 3px;
+        font-weight: 600;
+      }
+      .education-container .education-date {
+        font-size: 13px;
+      }
+      .language-container .language-grp {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 23px;
+        font-family: "Lato", sans-serif;
+        padding: 0px 11px 0px 11px;
+        margin-top: 25px;
+      }
+      .language-container .language-grp .right-lang .layer-outer {
+        background-color: rgb(40, 0, 249, 0.12);
+        height: 10px;
+        width: 130px;
+        border-radius: 8px;
+      }
+      .language-container .language-grp .right-lang .layer-inner {
+        background-color: rgb(114 134 211);
+        height: 100%;
+        border-radius: inherit;
+      }
